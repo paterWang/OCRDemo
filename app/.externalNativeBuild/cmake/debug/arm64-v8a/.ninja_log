@@ -1,0 +1,3 @@
+# ninja log v5
+0	472	1564555142	CMakeFiles/native-lib.dir/native-lib.cpp.o	21530a0f7588ae3e
+473	555	1564555142	/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	a51bb9113c4372d3

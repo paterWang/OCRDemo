@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/.externalNativeBuild/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/src/main/cpp/CMakeLists.txt",
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/.externalNativeBuild/cmake/debug/x86\" --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommand": "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/.externalNativeBuild/cmake/debug/x86\" --target native-lib",
+      "buildType": "debug",
+      "toolchain": "4189912695",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "4189912695": {
+      "cppCompilerExecutable": "/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

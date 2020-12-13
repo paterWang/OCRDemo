@@ -1,0 +1,25 @@
+Executable : /Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/src/main/cpp
+-B/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/wangbo/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/Users/wangbo/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DOpenCV_DIR=/Users/wangbo/AndroidStudioProjects/demo/OCRDemo/app/jniLibs
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_STL=c++_shared
+LOCAL_LDLIBS := -llog
+LOCAL_LDLIBS    := -ljnigraphics
+jvmArgs : 
+

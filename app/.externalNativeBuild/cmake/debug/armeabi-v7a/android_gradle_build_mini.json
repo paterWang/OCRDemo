@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/src/main/cpp/CMakeLists.txt",
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/OCRDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "OpenCV-Debug-armeabi-v7a": {
+      "artifactName": "OpenCV",
+      "buildCommand": "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/OCRDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target OpenCV",
+      "abi": "armeabi-v7a",
+      "output": "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libOpenCV.so"
+    }
+  }
+}

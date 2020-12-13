@@ -1,0 +1,46 @@
+{
+  "stringTable": {
+    "0": "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DOpenCV_EXPORTS -I/Users/wangbo/AndroidStudioProjects/OCRDemo/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/src/main/cpp/CMakeLists.txt",
+    "/Users/wangbo/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/OCRDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "OpenCV-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/wangbo/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/wangbo/AndroidStudioProjects/OCRDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a\" --target OpenCV",
+      "buildType": "debug",
+      "toolchain": "4189912695",
+      "abi": "armeabi-v7a",
+      "artifactName": "OpenCV",
+      "files": [
+        {
+          "src": "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/src/main/cpp/utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/wangbo/AndroidStudioProjects/OCRDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libOpenCV.so"
+    }
+  },
+  "toolchains": {
+    "4189912695": {
+      "cppCompilerExecutable": "/Users/wangbo/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
