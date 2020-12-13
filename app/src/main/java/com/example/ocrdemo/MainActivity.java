@@ -17,10 +17,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.googlecode.tesseract.android.TessBaseAPI;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 
 public class MainActivity extends AppCompatActivity {
